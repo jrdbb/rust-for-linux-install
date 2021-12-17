@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt install -y gcc libelf-dev clang-11 llvm-11 lld-11 make flex bison
+sudo apt install -y gcc libelf-dev clang-11 llvm-11 lld-11 make flex bison libssl-dev
 export PATH=$PATH:/usr/lib/llvm-11/bin
 ./rustup-init.sh -y
 source $HOME/.cargo/env
