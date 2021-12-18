@@ -12,4 +12,4 @@ git config --global http.proxy "socks5://10.0.0.93:10808"
 git clone https://github.com/Rust-for-Linux/linux.git --depth=1
 cp .config linux
 cd linux
-make LLVM=1
+make -j8 LLVM=1
